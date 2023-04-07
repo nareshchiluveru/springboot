@@ -13,7 +13,7 @@ import com.ps.demo.service.StudentSevice;
 @Controller
 public class StudentController {
 
-	
+	//Autowiring Sevices
 	private StudentSevice service;
 
 	public StudentController(StudentSevice service) {
